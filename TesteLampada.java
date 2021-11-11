@@ -5,6 +5,7 @@ public class TesteLampada {
         Lampada l=new Lampada();
         l.ligar();
 
+        //Verificação da condição da lampada
         if(l.isSituacaoLampada()){
             System.out.println("Lampada ligada");
         }else
